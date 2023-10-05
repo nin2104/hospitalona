@@ -1,0 +1,8 @@
+var path = require('path');
+
+module.exports = {
+  'config': path.resolve('E:/LearnCode/NodeJs/FirstProject/src/config', 'config.json'),
+  'migrations-path': path.resolve('E:/LearnCode/NodeJs/FirstProject/src', 'migrations'),
+  'models-path': path.resolve('E:/LearnCode/NodeJs/FirstProject/src', 'models'),
+  'seeders-path': path.resolve('E:/LearnCode/NodeJs/FirstProject/src', 'seeders')
+}
